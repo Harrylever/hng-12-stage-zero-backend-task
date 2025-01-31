@@ -44,8 +44,8 @@ npm run dev
 
 ### API Documentation
 #### Base URL
-- Deployed URL: `<deployed_url>`
-- Local URL: `http://localhost:3000`
+- Deployed URL: `https://hng-12-stage-zero-backend-task-production.up.railway.app/harrylever`
+- Local URL: `http://localhost:3000/harrylever`
 
 ## GET /harrylever
 This endpoint returns my email, the current timestamp, and the GitHub repository URL.
@@ -62,11 +62,11 @@ Status: 200 OK
 
 #### Example Usage
 ```sh
-curl -X GET <YOUR_DEPLOYED_URL>/harrylever
+curl -X GET https://hng-12-stage-zero-backend-task-production.up.railway.app/harrylever
 ```
 
 #### Or visit in your browser:
-<YOUR_DEPLOYED_URL>/harrylever
+https://hng-12-stage-zero-backend-task-production.up.railway.app/harrylever
 
 <hr />
 
